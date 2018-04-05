@@ -19,7 +19,7 @@ import easygopigo3 as easy
 gpg = easy.EasyGoPiGo3()
 
 print("***** START *****")
-print("Forward.")
+print("Forward")
 gpg.forward()
 time.sleep(1)
 
@@ -47,6 +47,6 @@ print("Right")
 gpg.right()
 time.sleep(1)
 
-print("Stop!")
+print("Stop")
 gpg.stop()
-print("***** STOP *****")
+print("***** END *****")
